@@ -45,7 +45,7 @@ Stores part of the information that concerns a structure. Examples of attributes
 <td>Identifies an element in the scope where it is defined, like a screen, action, or module.</td>
 <td>Yes</td>
 <td></td>
-<td></td>
+<td>Can be localized for multi-language applications, enhancing UX.  <br>  Can be used as a column name in Excel exports for better readability. <br> Maximum length depends on the platform, typically around 255 characters </td>
 </tr>
 <tr>
 <td title="Label">Label</td>
@@ -59,7 +59,7 @@ Stores part of the information that concerns a structure. Examples of attributes
 <td>The attribute data type.</td>
 <td>Yes</td>
 <td></td>
-<td></td>
+<td> Can be localized for multi-language applications, enhancing UX.   </td>
 </tr>
 <tr>
 <td title="Length">Length</td>
@@ -97,7 +97,7 @@ Stores part of the information that concerns a structure. Examples of attributes
 <td>Name to use when sending this attribute in the payload of the request.</td>
 <td></td>
 <td></td>
-<td></td>
+<td>If not defined, the attribute name is used as the default JSON key.</td>
 </tr>
 </tbody>
 </table>
